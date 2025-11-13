@@ -7,8 +7,8 @@
 
 export const siteConfig = {
   // Site Information
-  title: "My Article Blog",
-  description: "A collection of articles and thoughts",
+  title: "The Apple Times",
+  description: "Stay in the loop with everything Apple.",
   logo: "/logo.svg", // Path to your logo in client/public/
   
   // Branding & Colors

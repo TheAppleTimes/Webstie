@@ -9,7 +9,7 @@ export const siteConfig = {
   // Site Information
   title: "The Apple Times",
   description: "Stay in the loop with everything Apple.",
-  logo: "/logo.svg", // Path to your logo in client/public/
+  logo: "/website/logo.svg", // Path to your logo in client/public/
   
   // Branding & Colors
   // These colors use CSS custom properties defined in index.css

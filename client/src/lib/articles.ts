@@ -8,7 +8,7 @@
 import type { Article, ArticleMetadata } from "@/types/article";
 
 // Import example articles
-import ExampleArticle, { metadata as exampleMetadata } from "@/pages/articles/example-article";
+import iPhonePocket, { metadata as exampleMetadata } from "@/pages/articles/iphone-pocket";
 import GettingStarted, { metadata as gettingStartedMetadata } from "@/pages/articles/getting-started";
 
 /**

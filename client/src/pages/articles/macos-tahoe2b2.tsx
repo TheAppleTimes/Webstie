@@ -56,7 +56,7 @@ export default function GettingStarted() {
           
           <figure className="my-8">
             <img
-              src="/images/macostahoe.jpg"
+              src="/images/edgelight.jpg"
               className="w-full rounded-lg"
             />
         </figure>

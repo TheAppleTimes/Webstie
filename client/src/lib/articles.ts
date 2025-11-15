@@ -22,8 +22,8 @@ import macOS26B2, { metadata as macOS26B2Metadata } from "@/pages/articles/macos
  */
 export const articles: Article[] = [
   {
-    metadata: gettingStartedMetadata,
-    component: GettingStarted,
+    metadata: macOS26B2Metadata,
+    component: macOS26B2,
   },
   {
       metadata: iPhonePocketMetadata,

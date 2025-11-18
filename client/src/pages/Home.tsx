@@ -1,8 +1,10 @@
 import { useState, useMemo } from "react";
 import { searchArticles } from "@/lib/articles";
 import { ArticleCard } from "@/components/ArticleCard";
+import { Footer } from "@/components/Footer";
 import { SearchBar } from "@/components/SearchBar";
 import { siteConfig } from "@/config";
+import { AdSenseAd } from "@/components/AdSenseAd";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -13,8 +15,10 @@ export default function Home() {
   
   return (
     <div className="min-h-screen">
+      <main>
       {/* Hero Section with Search */}
       <section className="border-b bg-gradient-to-b from-background to-secondary/20">
+        <AdSenseAd slot="1234567890" format="horizontal" className="container" />
         <div className="container py-16 md:py-24">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
@@ -59,6 +63,8 @@ export default function Home() {
           </>
         )}
       </section>
+      </main>
+      <Footer />
     </div>
   );
 }

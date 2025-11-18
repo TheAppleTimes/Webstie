@@ -1,6 +1,8 @@
 import { useRoute, Link } from "wouter";
 import { getArticleById } from "@/lib/articles";
 import { Button } from "@/components/ui/button";
+import { AdSenseAd } from "@/components/AdSenseAd";
+import { Footer } from "@/components/Footer";
 import { ArrowLeft } from "lucide-react";
 
 export default function ArticleDetail() {
@@ -66,8 +68,10 @@ export default function ArticleDetail() {
       <div className="container py-8 md:py-12">
         <div className="max-w-4xl mx-auto">
           <ArticleComponent />
+          <AdSenseAd slot="0987654321" format="fluid" className="max-w-4xl mx-auto" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
